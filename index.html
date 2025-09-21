@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurentt page</title>
+</head>
+<body>
+    <header id="home">
+        <h1>Hapiness Restaurent</h1>
+        <nav>
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+        <p>Welcome to Happiness Restaurent! We serve the tastiest meals in town.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Pizza</h3>
+                <p>$10</p>
+                <button onclick="orderItem('Pizza')">Order Now</button>
+            </div>
+            <div class="item">
+                <h3>Burger</h3>
+                <p>$8</p>
+                <button onclick="orderItem('Burger')">Order Now</button>
+            </div>
+            <div class="item">
+                <h3>Pasta</h3>
+                <p>$12</p>
+                <button onclick="orderItem('Pasta')">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="order">
+    <h2>Your Order</h2>
+    <ul id="orderList"></ul>
+   </section>
+
+
+   
+      <footer>
+        <p>&copy; 2025 Happiness Restaurent</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
